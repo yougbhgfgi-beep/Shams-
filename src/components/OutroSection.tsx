@@ -101,7 +101,7 @@ export default function OutroSection() {
                 {/* Skip button during animation */}
                 <button onClick={() => setCurrentLine(OUTRO_LINES.length)}
                   className="absolute -bottom-20 text-pink-400/60 hover:text-pink-300 text-sm font-medium transition-colors">
-                  تخطي >>
+                  تخطي &gt;&gt;
                 </button>
               </div>
             ) : (
